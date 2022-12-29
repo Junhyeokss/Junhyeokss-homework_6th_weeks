@@ -1,5 +1,8 @@
+* {
+  outline: 1px solid tom55ato;
+}
+
 .header {
-  padding: 0 100px;
   position: absolute;
   top: 20px;
   left: 50%;
@@ -178,6 +181,11 @@
   padding: 0 0 80px 0;
 }
 
+.mainContent h2 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
 .mainContent ul {
   display: flex;
   width: 1200px;
@@ -185,19 +193,22 @@
   margin: 0 auto;
   gap: 30px;
   padding: 40px 0;
+  font-weight: 500;
 }
 
 .mainContent .inner {
   display: flex;
+  width: 1200px;
   flex-wrap: wrap;
   width: 1200px;
   margin: 0 auto;
+  gap: 10px;
 }
 
 .mainContent .inner .img {
-  width: 400px;
+  width: 390px;
   height: 420px;
-  padding: 30px;
+
   position: relative;
 }
 
@@ -214,14 +225,15 @@
 
 .mainContent .inner .detail {
   position: absolute;
-  width: 340px;
+  width: 390px;
   height: 145px;
   line-height: 25px;
   background: #222831;
   border-radius: 20px;
   padding: 10px 0 0 0;
-  top: 70%;
+  top: 61.2%;
   left: 50%;
+  gap: 10px;
   color: #f1f2f3;
   transform: translate(-50%, -50%);
 }
@@ -241,12 +253,13 @@
 }
 
 .mainContent .inner .detail button {
-  padding: 1px;
+  padding: 1px 5px 0 3px;
   line-height: 12px;
   color: #f1f2f3;
   background: #ffbe33;
   border: none;
   margin: 0 0 0 5px;
+  text-align: center;
 }
 
 .mainContent strong {
@@ -259,7 +272,7 @@
 
 .SubContent {
   padding: 100px 0;
-  height: 600px;
+  height: 680px;
   background: #222831;
 }
 
@@ -306,8 +319,9 @@
 .finalSection .inner {
   display: flex;
   width: 1200px;
-  gap: 30px;
+  flex: 1;
   margin: 0 auto;
+  gap: 30px;
 }
 
 .finalSection .inner .input {
@@ -320,12 +334,53 @@
 }
 
 .finalSection .inner .input input {
-  width: 500px;
+  width: 585px;
   height: 50px;
-  padding: 0 0 0 20px;
   border-radius: 10px;
 }
 
 .finalSection .inner .map iframe {
   border-radius: 15px;
+  width: 585px;
+}
+
+.footer {
+  padding: 70px 0;
+  background: #222831;
+}
+
+.footer .inner {
+  display: flex;
+  flex: 1;
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+
+  color: #f1f2f3;
+}
+
+.footer .inner ul {
+  display: flex;
+  margin: 0 0 0 150px;
+  padding: 8px 0 35px 0;
+  gap: 5px;
+}
+
+.footer .inner .contact {
+  width: 400px;
+  line-height: 30px;
+}
+
+.footer .inner .contact h2 {
+  font-size: 25px;
+  font-weight: 500;
+  padding: 0 0 10px 0;
+}
+
+.footer .bottom {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 35px;
+  color: #f1f2f3;
 }
